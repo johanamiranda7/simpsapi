@@ -1,0 +1,18 @@
+body {
+    background-color: hsl(156, 100%, 41%);
+}
+
+h1 {
+    background-color: hsl(156, 100%, 32%);
+    padding: 10px;
+    font-size: 3rem;
+}
+
+#btn {
+    border: none; 
+    color: white; 
+    padding: 20px 40px; 
+    cursor: pointer; 
+    border-radius: 10px; 
+    background-color: #0260de;
+}
