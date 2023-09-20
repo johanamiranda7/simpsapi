@@ -17,16 +17,17 @@ h1 {
     cursor: pointer; 
     border-radius: 10px; 
     background-color: #0260de;
-    justify-content: center;
-    display: flex; 
+    
 }
 
+#container {
+    display: flex; /* Convierte el contenedor en un contenedor flexible */
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: center; /* Centra horizontalmente los elementos en el contenedor */
+    justify-content: center; /* Centra verticalmente los elementos en el contenedor */
+    /*height: 100vh; /* Opcional: Ajusta la altura del contenedor al 100% de la ventana */
 
 
-/*#container {
-    display: flex;
-    justify-content: center; /* Centrar horizontalmente */
-    /*align-items: center; /* Centrar verticalmente */
-   /* height: 100vh; /* Esto asegura que el contenedor ocupe toda la altura de la ventana */
-/*}
-  
+
+
+
