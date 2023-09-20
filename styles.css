@@ -1,18 +1,33 @@
 body {
     background-color: hsl(156, 100%, 41%);
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 h1 {
     background-color: hsl(156, 100%, 32%);
-    padding: 10px;
+    padding: 20px;
     font-size: 3rem;
+    text-align: center;
 }
 
 #btn {
     border: none; 
     color: white; 
-    padding: 20px 40px; 
+    padding: 10px 40px; 
     cursor: pointer; 
     border-radius: 10px; 
     background-color: #0260de;
+    
 }
+
+#container {
+    display: flex; /* Convierte el contenedor en un contenedor flexible */
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: center; /* Centra horizontalmente los elementos en el contenedor */
+    justify-content: center; /* Centra verticalmente los elementos en el contenedor */
+}
+
+
+
+
+
