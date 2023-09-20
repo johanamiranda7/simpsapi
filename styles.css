@@ -25,7 +25,7 @@ h1 {
     flex-direction: column; /* Apila los elementos verticalmente */
     align-items: center; /* Centra horizontalmente los elementos en el contenedor */
     justify-content: center; /* Centra verticalmente los elementos en el contenedor */
-    /*height: 100vh; /* Opcional: Ajusta la altura del contenedor al 100% de la ventana */
+}
 
 
 

@@ -1,6 +1,6 @@
 let simpsons;
 
-        const url = 'https://apisimpsons.fly.dev/api/personajes?limit=50';
+        const url = 'https://apisimpsons.fly.dev/api/personajes?limit=500';
 
         fetch(url)
         .then(response => response.json())
@@ -11,7 +11,7 @@ let simpsons;
 
         function generarNro() {
             // Generar un número aleatorio dentro del rango, use floor para redondear el resultado
-            let numeroAleatorio = Math.floor(Math.random() * 50);
+            let numeroAleatorio = Math.floor(Math.random() * 500);
 
             // Obtener el objeto del personaje aleatorio
             const simpson = simpsons[numeroAleatorio];
